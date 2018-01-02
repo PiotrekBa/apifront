@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Api Front</title>
+</head>
+
+<body>
+    <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+    <div class="container">
+        <form class="rounded">
+            <div class="form-group">
+                <label for="title">Tytuł książki</label>
+                <input type="text" class="form-control" id="title" placeholder="Tytuł">
+                <label for="author">Autor</label>
+                <input type="text" class="form-control" id="author" placeholder="Autor">
+                <label for="isbn">ISBN</label>
+                <input type="text" class="form-control" id="isbn" placeholder="ISBN">
+                <label for="publisher">Wydawnictwo</label>
+                <input type="text" class="form-control" id="publisher" placeholder="Wydawnictwo">
+                <label for="type">Rodzaj</label>
+                <input type="text" class="form-control" id="type" placeholder="Rodzaj">
+            </div>
+            <button type="submit" class="btn btn-dark" id="save">Zapisz</button>
+        </form>
+        <div class="all-books">
+            <div class="book-title">TYTUŁ KSIĄŻKI</div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="js/app.js"></script>
+</html>

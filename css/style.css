@@ -1,0 +1,67 @@
+form {
+    padding: 10px;
+    border-color: #343a40;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+ .title, .remove {
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #343a40;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #212427;
+    color: #fff;
+} 
+
+ .title {
+    float: left;
+    width: 80%;
+} 
+
+
+.description {
+    clear: left;
+    padding: 0px;
+}
+
+.all-books {
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: #212529;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.book-title {
+    background-color: #121518;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #343a40;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.book {
+    border-color: #a1a2a3;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.bigger {
+    font-weight: bold;
+}
